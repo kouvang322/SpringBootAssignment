@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:fragment="headPortion(pageTitle)">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+    <title th:text="${pageTitle}">Title</title>
+</head>
+<body>
+<header th:fragment="top">
+
+    <nav>
+        <ul>
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/step-one}">Step 1</a></li>
+            <li><a th:href="@{/step-two}">Step 2</a></li>
+            <li><a th:href="@{/step-three}">Step 3</a></li>
+            <li><a th:href="@{/more-info}">More Info</a></li>
+        </ul>
+    </nav>
+</header>
+
+</body>
+</html>

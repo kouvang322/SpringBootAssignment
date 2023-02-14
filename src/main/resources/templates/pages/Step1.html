@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/topnav :: headPortion('Heimlich Maneuver - Step One')">
+</head>
+<body>
+<div th:insert="fragments/topnav :: top"></div>
+
+<h1>Step 1</h1>
+<img th:src="@{/img/HeimlichStepOne.jpg}">
+
+<p><b>Drive your fist in and up.</b> To try to get the foreign object dislodged, push your fist and hand into your diaphragm or stomach area. Use a quick j-shaped motion, in and then up. Repeat this movement multiple times, if necessary.</p>
+<ul>
+    <li>If this does not dislodge the foreign object very quickly, you need to try to add more force with a stable object.</li>
+</ul>
+
+<h4>Images and information taken from: <a th:href="@{/more-info}">https://www.wikihow.com/Perform-the-Heimlich-Maneuver-on-Yourself</a></h4>
+<div th:replace="fragments/botfooter :: bottom"></div>
+
+</body>
+</html>

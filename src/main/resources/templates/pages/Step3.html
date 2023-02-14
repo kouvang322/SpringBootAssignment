@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/topnav :: headPortion('Heimlich Maneuver - Step One')">
+</head>
+<body>
+
+<div th:insert="fragments/topnav :: top"></div>
+
+<h1>Step 3</h1>
+<img th:src="@{/img/HeimlichStepThree.jpg}">
+
+<p><b>Repeat the maneuver if it doesn’t work right away.</b> You may not be able to dislodge the object during the first try.If not, quickly repeat pushing yourself onto the stable object until the object is removed. You should return to normal breathing once it is removed</p>
+<ul>
+    <li>Although choking is very scary, it is better if you stay calm. Panicking will only increase your heart rate and need for air, which will make it worse.</li>
+    <li>Once you have the object dislodged, sit down and catch your breath.</li>
+    <li>If you find that you are uncomfortable or have pain in your ribs, abdomen, or throat, you may need to see your doctor.</li>
+    <li>If you cannot get the object dislodged, call 911 or your local emergency services number.</li>
+</ul>
+
+<h4>Images and information taken from: <a th:href="@{/more-info}">https://www.wikihow.com/Perform-the-Heimlich-Maneuver-on-Yourself</a></h4>
+<div th:replace="fragments/botfooter :: bottom"></div>
+
+</body>
+</html>

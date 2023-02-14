@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/topnav :: headPortion('Heimlich Maneuver - Step One')">
+</head>
+<body>
+<div th:insert="fragments/topnav :: top"></div>
+
+<h1>Step 2</h1>
+<img th:src="@{/img/HeimlichStepTwo.jpg}">
+
+<p><b>Add force with a stable object if your hands aren’t enough.</b> In your immediate area, look for a stable object that is about waist high that you can bend over. A chair, a table, a railing, or a countertop will work well for this. With your hands still clasped in front of you, bend over the solid object. Brace your fists between the chair and your abdomen and drive your body against the object</p>
+<ul>
+    <li>This will greatly increase the force you apply to your diaphragm, which may help dislodge the object more easily.</li>
+</ul>
+
+<h4>Images and information taken from: <a th:href="@{/more-info}">https://www.wikihow.com/Perform-the-Heimlich-Maneuver-on-Yourself</a></h4>
+<div th:replace="fragments/botfooter :: bottom"></div>
+</body>
+</html>

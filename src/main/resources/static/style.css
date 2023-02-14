@@ -1,0 +1,42 @@
+body{
+    padding: 25px;
+}
+
+img{
+    padding: 15px;
+}
+
+nav{
+    background-color: seagreen;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+}
+
+li a{
+    display: flex;
+    text-align: center;
+    padding: 10px 15px ;
+    color: white;
+    background-color: darkolivegreen;
+}
+
+li a:hover{
+    background-color: darkgreen;
+}
+
+.left{
+    float: left;
+}
+
+footer{
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+}

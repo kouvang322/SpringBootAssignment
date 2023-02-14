@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/topnav :: headPortion('How to Perform the Heimlich on Yourself')">
+</head>
+<body>
+    <div th:insert="fragments/topnav :: top"></div>
+
+    <h1>Heimlich Maneuver on Yourself</h1>
+
+    <img th:src="@{/img/coughing.jpg}">
+    <p><b>Choking, but by yourself?</b> Try to cough out the foreign object. If it is not possible to cough out, look through the steps to learn how to help perform the Heimlich maneuver on yourself.</p>
+
+    <div th:replace="fragments/botfooter :: bottom"></div>
+
+</body>
+</html>
